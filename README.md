@@ -8,19 +8,6 @@ This repository contains experiments for fine-tuning language models to predict 
 The repository is organized as follows:
 
 ```
-├── datasets/
-│   ├── df_essays_fragm_256.csv
-│   ├── df_essays_fragm_test.csv
-│   ├── df_essays_fragm_train.csv
-│   ├── df_essays_fragm_valid.csv
-│   ├── df_mbti_fragm_256.csv
-│   ├── df_mbti_fragm_test.csv
-│   ├── df_mbti_fragm_train.csv
-│   ├── df_mbti_fragm_valid.csv
-│   ├── df_mbti_orig_test.csv
-│   ├── df_mbti_orig_train.csv
-│   ├── df.csv
-│   └── mbti_2.csv
 ├── explainability/
 │   ├── big_five/
 │   │   ├── explainable_ai_expers_essays_agr.ipynb
@@ -53,10 +40,7 @@ Two main datasets are used in this project:
 1. **Essays dataset** (Big 5 personality traits: Extraversion, Neuroticism, Agreeableness, Conscientiousness, Openness)
 2. **MBTI dataset** (Myers-Briggs Type Indicator dimensions: I/E, N/S, F/T, J/P)
 
-The `datasets/` directory contains:
-- Original data files: `df.csv` (Essays dataset) and `mbti_2.csv` (MBTI dataset)
-- Fragmented training/validation/test splits for both datasets
-- Additional preprocessed versions including 256-token fragments and original test/train splits
+YOU CAN GET THEM UPON REQUEST TO THE AUTHORS
 
 ## Setup
 
@@ -70,7 +54,7 @@ pip install torch transformers transformers-interpret memory_profiler datasets a
 
 ### Data Preparation
 
-The data is already preprocessed and available in the `datasets/` directory:
+The data is already preprocessed and available (you can get them upon request):
 * Essays dataset: `df_essays_fragm_train.csv`, `df_essays_fragm_valid.csv`, and `df_essays_fragm_test.csv`
 * MBTI dataset: `df_mbti_fragm_train.csv`, `df_mbti_fragm_valid.csv`, and `df_mbti_fragm_test.csv`
 
