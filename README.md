@@ -11,13 +11,16 @@ Journal: PLOS ONE
 Status: In press
 Year: 2025
 If you use this code or the findings from our research, please cite our paper:
-bibtex@article{Saeteros2025,
+
+```bibtex
+@article{Saeteros2025,
   title={Text speaks louder: Insights into Personality from Natural Language Processing},
   author={Saeteros, D. and Gallardo-Pujol, D. and Ortiz-Martínez, D.},
   journal={PLOS ONE},
   year={2025},
   note={In press}
 }
+```
 
 ## Project Structure
 
