@@ -1,5 +1,5 @@
 # FINESTRA (Framework for Interpretable Neural Explanation of Semantic Trait Recognition Analysis)
-# Personality Trait Classification with Explainable AI
+## Personality Trait Classification with Explainable AI
 
 This repository contains experiments for fine-tuning language models to predict personality traits from text, along with explainability analysis to understand model decisions.
 
