@@ -3,6 +3,22 @@
 
 This repository contains experiments for fine-tuning language models to predict personality traits from text, along with explainability analysis to understand model decisions.
 
+## Associated Publication
+This code repository accompanies our paper:
+Title: Text speaks louder: Insights into Personality from Natural Language Processing
+Authors: Saeteros, D., Gallardo-Pujol, D., & Ortiz-Martínez, D.
+Journal: PLOS ONE
+Status: In press
+Year: 2025
+If you use this code or the findings from our research, please cite our paper:
+bibtex@article{Saeteros2025,
+  title={Text speaks louder: Insights into Personality from Natural Language Processing},
+  author={Saeteros, D. and Gallardo-Pujol, D. and Ortiz-Martínez, D.},
+  journal={PLOS ONE},
+  year={2025},
+  note={In press}
+}
+
 ## Project Structure
 
 The repository is organized as follows:
